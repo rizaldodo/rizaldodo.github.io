@@ -28,8 +28,8 @@
     border-radius: 5rem;
     max-width: 200px;
     max-height: 200px;
+    width: auto;
     border: 5px solid rgba(36, 36, 36, 0.801);
-    
     
 }
 
@@ -331,6 +331,7 @@ input[type=submit]:hover {
 
 .container-head {
     max-width: 1180px;
+    width: auto;
     text-align: center;
     margin: 0 auto;
     padding: 3rem 3rem;
