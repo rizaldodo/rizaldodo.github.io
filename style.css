@@ -351,7 +351,7 @@ input[type=submit]:hover {
 }
 
 .lead {
-    font-size: 1.4rem;
+    font-size: 1.5vw;
     text-align: justify;
     font-family: 'Fredoka One', cursive;
     margin-bottom: 1px;
@@ -359,11 +359,12 @@ input[type=submit]:hover {
 
 .about-paragraph {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 1.5vw;
     text-align: justify;
 }
 .paragraph-control {
     margin-bottom: 5px;
+    
 }
 .about-barber {
     margin: 0 auto;
@@ -402,7 +403,7 @@ nav ul {
 nav li {
     display: inline;
     margin: 3rem;
-    /* float: left; */
+   
 }
 
 nav a {
@@ -418,11 +419,19 @@ nav a {
 nav li:hover {
     background-color: #444;
     border-radius: 5px;
-    border: 3px rgba(193, 255, 191, 0.384); 
+     
 }
 
 nav a#openup {
     display: none;
+}
+
+.feedback{
+    text-align: center; 
+    font-size: 2rem;
+    background: 3px #f56464b2;
+    border-radius: 10px;
+    
 }
 
 
